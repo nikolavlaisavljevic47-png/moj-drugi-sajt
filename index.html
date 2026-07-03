@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moj sajt</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#0066ff;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+section{
+    max-width:900px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+button{
+    background:#0066ff;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#004ecc;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Dobrodošli!</h1>
+<p>Ovo je moj prvi sajt.</p>
+</header>
+
+<section>
+
+<div class="card">
+<h2>O meni</h2>
+<p>Zdravo! Ovo je moja internet stranica napravljena u HTML-u.</p>
+</div>
+
+<div class="card">
+<h2>Kontakt</h2>
+<p>Email: primer@email.com</p>
+
+<button onclick="pozdrav()">Klikni me</button>
+</div>
+
+</section>
+
+<footer>
+© 2026 Moj sajt
+</footer>
+
+<script>
+function pozdrav(){
+    alert("Hvala što ste posetili moj sajt!");
+}
+</script>
+
+</body>
+</html>
